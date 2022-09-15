@@ -18,7 +18,7 @@ btnDestroy.addEventListener("click", () => {
 
   // тут делаю так чтобы удалял только созданную разметку с классом js-remove
   const removeList = document.querySelectorAll(".js-remove");
-  for (let i = 0; i <= removeList.length; i += 1) {
+  for (let i = 0; i < removeList.length; i += 1) {
     removeList[i].remove();
   }
 });
